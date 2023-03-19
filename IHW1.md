@@ -161,15 +161,15 @@
 - Второй процесс - algorithm.c, отвечает за вычисление ответа.
 
 
-    $ gcc algorithm.c -o algorithm
+    	$ gcc algorithm.c -o algorithm
 
-    $ gcc fileManager.c manager
+    	$ gcc fileManager.c manager
 
-	$ ./manager tests/input/1.in tests/output/1.out
+		$ ./manager tests/input/1.in tests/output/1.out
 
-    $ ./algorithm sus
+    	$ ./algorithm sus
 
-	$ cat tests/output/1.out
+		$ cat tests/output/1.out
 
 ***
 *Все прочие требования идентичны тем, что были на оценку 4, и были успешно выполнены.
